@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Web</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="hearder">
+        <nav>
+          <a href="index.html"><img src="./images/excel institution blue.jpg" alt=""></a>
+          <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+              <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+              </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1 class="aad">ABOUT EXCEL INSTITUTE</h1>
+            <h3>Where Creativity Meets Execution</h3>
+            <P></P>
+        </div>
+        </section>
+
+        <!--course---->
+        <section class="">
+        <div class="row">
+            <div class="course">
+              <h1>WELCOME TO EXCEL INSTITUTE</h1>
+              <p>AT EXCEL INSTITUTE,we are passionate about empowering individual with the skills and knowledge to 
+                create unforgettable event. <br>Our mission is to provide comprehensive training in event planning, <br>
+                events decoration, and catering helping our Student to succeed in the industry.
+              </p>
+            </div>
+            <div class="course">
+              <h1>OUR STORY</h1>
+              <p>Founder by Miss AFOLABI BARAKAT ADEJOKE,a seasoned event professional with 5 years of experienced <br>
+                our organization is built on the belief that anyone can learn the art of event management with the <br> right
+                guidance and support.
+              </p>
+            </div>
+            <div class="course">
+              <h1>OUR VALUE</h1>
+              <p>Excellence:We strive for excellence in everything we do, from our <br>teaching methods to our customer serivce,
+              </p>
+              <p>Creativity:We encourage our students to think outside the box and bring their unique ideas to life</p>
+              <p>Community:We believe in building a supportive community of event professionals who can learn from 
+                and inspire each other.
+              </p>
+            </div>
+            <div class="course">
+                <h1>OUR GOALS</h1>
+                <p>To provide high-quality training in event planning, events decoration and catering</p>
+                <p>To equip our student with the skill and confidence to succed in the industry</p>
+                <p>To build a community of event professionals who can support and learn from each other</p>
+              </div>
+          </div>
+          </section>
+          <footer class="footer">
+            <div class="container">
+              <div class="row">
+                <div class="footer-col">
+                  <h4>Company</h4>
+                  <ul>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Our serivce</a></li>
+                    <li><a href="#">Our vision</a></li>
+                    <li><a href="#">Our mission</a></li>
+                  </ul>
+                </div>
+                   <div class="footer-col">
+                  <h4>Get help</h4>
+                  <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Partners</a></li>
+                    <li><a href="#">Student</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Payment options</a></li>
+                  </ul>
+                </div>
+                   <div class="footer-col">
+                  <h4>Online class</h4>
+                  <ul>
+                    <li><a href="#">Event Decoration</a></li>
+                    <li><a href="#">Event Planning</a></li>
+                    <li><a href="#">Catering</a></li>
+                    <li><a href="#">Baking</a></li>
+                  </ul>
+                </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-------JavaScript for Toggle Menu------>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+          navLinks.style.right ="0";
+        }
+        function hideMenu(){
+          navLinks.style.right ="-200px";
+        }
+      </script>
+</body>
+</html>
